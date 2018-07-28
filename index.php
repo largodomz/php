@@ -2,7 +2,7 @@
 <head> <title> Profile Page </title>
 <body>
 
-Hello World!
+Hello Laravel!
 <br> <br>
 <?php echo '<p> Hello World </p>'; ?>
 
