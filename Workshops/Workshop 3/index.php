@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Epifelward Nino Amora - Broken Rock Paper Scissors</title>
+<title>Largo, Dominic - Broken Rock Paper Scissors</title>
 <?php require_once "bootstrap.php"; ?>
 </head>
 <body>
