@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Guessing Game for Epifelward Nino Amora</title>
+<title>Guessing Game for Largo, Dominic</title>
 </head>
 <body>
 <h1>Welcome to my guessing game</h1>
