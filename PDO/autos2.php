@@ -1,4 +1,4 @@
-<?php
+
 <html>
     <head>
       <!--Import Google Icon Font-->
@@ -8,10 +8,10 @@
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-     
+      <?php require_once "bootstrap.php"; ?>
     </head>
 
-
+<?php
 require_once "pdo.php";
 if ( isset($_POST['make']) && isset($_POST['year']) 
      && isset($_POST['mileage'])) {
@@ -27,11 +27,8 @@ if ( isset($_POST['make']) && isset($_POST['year'])
 $stmt = $pdo->query("SELECT make, year, mileage FROM autos");
 $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
-<html>
-<head>
-    <?php require_once "bootstrap.php"; ?>
-</head>
 
+   
 <body>
       <!--JavaScript at end of body for optimized loading-->
       <script type="text/javascript" src="js/materialize.min.js"></script>
