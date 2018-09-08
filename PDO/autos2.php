@@ -1,4 +1,16 @@
 <?php
+<html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+
 require_once "pdo.php";
 if ( isset($_POST['make']) && isset($_POST['year']) 
      && isset($_POST['mileage'])) {
@@ -37,3 +49,5 @@ foreach ( $rows as $row ) {
 </table>
 
 </body>
+
+     </html>
