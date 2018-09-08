@@ -7,7 +7,7 @@ if ( ! isset($_GET['name']) || strlen($_GET['name']) < 1  ) {
 }
 
 // If the user requested logout go back to index.php
-if ( isset($_POST['view']) ) {
+if ( isset($_POST['View']) ) {
     header('Location: autos2.php');
     return;
 }
