@@ -2,7 +2,7 @@
 require_once "pdo.php";
 if ( isset($_POST['make']) && isset($_POST['year']) 
      && isset($_POST['mileage'])) {
-    $sql = "INSERT INTO users (make, year, mileage) 
+    $sql = "INSERT INTO autos (make, year, mileage) 
               VALUES (:make, :year, :mileage)";
     echo("<pre>\n".$sql."\n</pre>\n");
     $stmt = $pdo->prepare($sql);
