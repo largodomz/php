@@ -11,7 +11,7 @@ if ( isset($_POST['make']) && isset($_POST['year'])
         ':year' => $_POST['year'],
         ':mileage' => $_POST['mileage']));
 }
-$stmt = $pdo->query("SELECT make, year, mileage FROM users");
+$stmt = $pdo->query("SELECT make, year, mileage FROM autos");
 $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 <html>
