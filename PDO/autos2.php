@@ -8,6 +8,7 @@
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     
     </head>
 
 
@@ -32,7 +33,8 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 </head>
 
 <body>
-
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
 <div class="container">
     <table border="1">
 <?php
