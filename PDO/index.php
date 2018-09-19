@@ -15,12 +15,14 @@
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
  
-// <?php require_once "bootstrap.php"; ?> 
 </head>
 <body>
+ <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+ 
 <div class="container">
 <h1>Welcome to Autos Database</h1>
-<!--<p><strong>Note:</strong> This sample code is only
+<!--<p><strong>Note:</strong> This sample code is only  
 partially done and serves only as a starting point for the assignment.
 </p>-->
 <p>
@@ -35,4 +37,5 @@ Attempt to go to
 </p>
 </div>
 </body>
+</html>
 
