@@ -46,12 +46,14 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
    $txt3 = "Mileage";
          
 foreach ( $rows as $row ) {
+    echo "<th><td>";
+    echo ($row $txt1 + $txt2 + $txt3);
     echo "<tr><td>";
-    echo($row['make'].$txt1);
+    echo($row['make']);
     echo("</td><td>");
-    echo($row['year'].$txt2);
+    echo($row['year']);
     echo("</td><td>");
-    echo($row['mileage'].$txt3);
+    echo($row['mileage']);
     echo("</td></tr>\n");
 }
 ?>
