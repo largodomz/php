@@ -47,7 +47,7 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
          
 foreach ( $rows as $row ) {
     echo "<th><td>";
-    echo ($row $txt1 + $txt2 + $txt3);
+    echo ($row[$txt1] + $row[$txt2] + $row[$txt3]);
     echo "<tr><td>";
     echo($row['make']);
     echo("</td><td>");
