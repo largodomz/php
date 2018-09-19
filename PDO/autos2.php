@@ -46,8 +46,6 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
    $txt3 = "Mileage";
          
 foreach ( $rows as $row ) {
-    echo "<th><td>";
-    echo ($row[.$txt1. + .$txt2. + .$txt3.]);
     echo "<tr><td>";
     echo($row['make']);
     echo("</td><td>");
