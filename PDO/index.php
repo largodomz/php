@@ -15,7 +15,7 @@
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
  
-/* <?php require_once "bootstrap.php"; ?> */
+// <?php require_once "bootstrap.php"; ?> 
 </head>
 <body>
 <div class="container">
