@@ -58,7 +58,7 @@ if ( isset($_POST['who']) && isset($_POST['pass']) ) {
       <script type="text/javascript" src="js/materialize.min.js"></script>
     
 <div class="container">
-<h1>Please Log In</h1>
+<h1>Log In</h1>
 <?php
 // Note triple not equals and think how badly double
 // not equals would work here...
