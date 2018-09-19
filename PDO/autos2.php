@@ -41,13 +41,17 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <div class="container">
     <table border="1">
 <?php
+   $txt1 = "Make";
+   $txt2 = "Year";
+   $txt3 = "Mileage";
+         
 foreach ( $rows as $row ) {
     echo "<tr><td>";
-    echo($row['make']);
+    echo($row['make'].$txt1);
     echo("</td><td>");
-    echo($row['year']);
+    echo($row['year'].$txt2);
     echo("</td><td>");
-    echo($row['mileage']);
+    echo($row['mileage'].$txt3);
     echo("</td></tr>\n");
 }
 ?>
